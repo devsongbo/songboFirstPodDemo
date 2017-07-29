@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E87DD6111F2C31A40018FA21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DD6101F2C31A40018FA21 /* main.m */; };
+		E87DD6141F2C31A40018FA21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DD6131F2C31A40018FA21 /* AppDelegate.m */; };
+		E87DD6171F2C31A40018FA21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DD6161F2C31A40018FA21 /* ViewController.m */; };
+		E87DD61A1F2C31A40018FA21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87DD6181F2C31A40018FA21 /* Main.storyboard */; };
+		E87DD61C1F2C31A40018FA21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87DD61B1F2C31A40018FA21 /* Assets.xcassets */; };
+		E87DD61F1F2C31A40018FA21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87DD61D1F2C31A40018FA21 /* LaunchScreen.storyboard */; };
+		E87DD62A1F2C31A40018FA21 /* songboFirstPodDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DD6291F2C31A40018FA21 /* songboFirstPodDemoTests.m */; };
+		E87DD6351F2C31A40018FA21 /* songboFirstPodDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DD6341F2C31A40018FA21 /* songboFirstPodDemoUITests.m */; };
+		E8A997C99DC8EF69C293BFCA /* libPods-songboFirstPodDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F27DAF9B01FF9F763E511C72 /* libPods-songboFirstPodDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E87DD6261F2C31A40018FA21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E87DD6041F2C31A40018FA21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E87DD60B1F2C31A40018FA21;
+			remoteInfo = songboFirstPodDemo;
+		};
+		E87DD6311F2C31A40018FA21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E87DD6041F2C31A40018FA21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E87DD60B1F2C31A40018FA21;
+			remoteInfo = songboFirstPodDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81B91C5D55DD8FEDE0EE8947 /* Pods-songboFirstPodDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-songboFirstPodDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-songboFirstPodDemo/Pods-songboFirstPodDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		82177326C6949813CB21DAA6 /* Pods-songboFirstPodDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-songboFirstPodDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-songboFirstPodDemo/Pods-songboFirstPodDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E87DD60C1F2C31A40018FA21 /* songboFirstPodDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = songboFirstPodDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87DD6101F2C31A40018FA21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E87DD6121F2C31A40018FA21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E87DD6131F2C31A40018FA21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E87DD6151F2C31A40018FA21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E87DD6161F2C31A40018FA21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E87DD6191F2C31A40018FA21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E87DD61B1F2C31A40018FA21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E87DD61E1F2C31A40018FA21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E87DD6201F2C31A40018FA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E87DD6251F2C31A40018FA21 /* songboFirstPodDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = songboFirstPodDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87DD6291F2C31A40018FA21 /* songboFirstPodDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songboFirstPodDemoTests.m; sourceTree = "<group>"; };
+		E87DD62B1F2C31A40018FA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E87DD6301F2C31A40018FA21 /* songboFirstPodDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = songboFirstPodDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87DD6341F2C31A40018FA21 /* songboFirstPodDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songboFirstPodDemoUITests.m; sourceTree = "<group>"; };
+		E87DD6361F2C31A40018FA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27DAF9B01FF9F763E511C72 /* libPods-songboFirstPodDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-songboFirstPodDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E87DD6091F2C31A40018FA21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A997C99DC8EF69C293BFCA /* libPods-songboFirstPodDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87DD6221F2C31A40018FA21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87DD62D1F2C31A40018FA21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7973F5263AAEC4BAD0B2648 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81B91C5D55DD8FEDE0EE8947 /* Pods-songboFirstPodDemo.debug.xcconfig */,
+				82177326C6949813CB21DAA6 /* Pods-songboFirstPodDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E87DD6031F2C31A40018FA21 = {
+			isa = PBXGroup;
+			children = (
+				E87DD60E1F2C31A40018FA21 /* songboFirstPodDemo */,
+				E87DD6281F2C31A40018FA21 /* songboFirstPodDemoTests */,
+				E87DD6331F2C31A40018FA21 /* songboFirstPodDemoUITests */,
+				E87DD60D1F2C31A40018FA21 /* Products */,
+				C7973F5263AAEC4BAD0B2648 /* Pods */,
+				FFABF4E63BA7358B1CE0E48B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E87DD60D1F2C31A40018FA21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E87DD60C1F2C31A40018FA21 /* songboFirstPodDemo.app */,
+				E87DD6251F2C31A40018FA21 /* songboFirstPodDemoTests.xctest */,
+				E87DD6301F2C31A40018FA21 /* songboFirstPodDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E87DD60E1F2C31A40018FA21 /* songboFirstPodDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E87DD6121F2C31A40018FA21 /* AppDelegate.h */,
+				E87DD6131F2C31A40018FA21 /* AppDelegate.m */,
+				E87DD6151F2C31A40018FA21 /* ViewController.h */,
+				E87DD6161F2C31A40018FA21 /* ViewController.m */,
+				E87DD6181F2C31A40018FA21 /* Main.storyboard */,
+				E87DD61B1F2C31A40018FA21 /* Assets.xcassets */,
+				E87DD61D1F2C31A40018FA21 /* LaunchScreen.storyboard */,
+				E87DD6201F2C31A40018FA21 /* Info.plist */,
+				E87DD60F1F2C31A40018FA21 /* Supporting Files */,
+			);
+			path = songboFirstPodDemo;
+			sourceTree = "<group>";
+		};
+		E87DD60F1F2C31A40018FA21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E87DD6101F2C31A40018FA21 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E87DD6281F2C31A40018FA21 /* songboFirstPodDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E87DD6291F2C31A40018FA21 /* songboFirstPodDemoTests.m */,
+				E87DD62B1F2C31A40018FA21 /* Info.plist */,
+			);
+			path = songboFirstPodDemoTests;
+			sourceTree = "<group>";
+		};
+		E87DD6331F2C31A40018FA21 /* songboFirstPodDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E87DD6341F2C31A40018FA21 /* songboFirstPodDemoUITests.m */,
+				E87DD6361F2C31A40018FA21 /* Info.plist */,
+			);
+			path = songboFirstPodDemoUITests;
+			sourceTree = "<group>";
+		};
+		FFABF4E63BA7358B1CE0E48B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F27DAF9B01FF9F763E511C72 /* libPods-songboFirstPodDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E87DD60B1F2C31A40018FA21 /* songboFirstPodDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87DD6391F2C31A40018FA21 /* Build configuration list for PBXNativeTarget "songboFirstPodDemo" */;
+			buildPhases = (
+				DA55B3E9A22CF47E9EC214CE /* [CP] Check Pods Manifest.lock */,
+				E87DD6081F2C31A40018FA21 /* Sources */,
+				E87DD6091F2C31A40018FA21 /* Frameworks */,
+				E87DD60A1F2C31A40018FA21 /* Resources */,
+				8F61F81BC4493EF84AC8B4FD /* [CP] Embed Pods Frameworks */,
+				5BD775F044DFE1C0F9498373 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = songboFirstPodDemo;
+			productName = songboFirstPodDemo;
+			productReference = E87DD60C1F2C31A40018FA21 /* songboFirstPodDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E87DD6241F2C31A40018FA21 /* songboFirstPodDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87DD63C1F2C31A40018FA21 /* Build configuration list for PBXNativeTarget "songboFirstPodDemoTests" */;
+			buildPhases = (
+				E87DD6211F2C31A40018FA21 /* Sources */,
+				E87DD6221F2C31A40018FA21 /* Frameworks */,
+				E87DD6231F2C31A40018FA21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E87DD6271F2C31A40018FA21 /* PBXTargetDependency */,
+			);
+			name = songboFirstPodDemoTests;
+			productName = songboFirstPodDemoTests;
+			productReference = E87DD6251F2C31A40018FA21 /* songboFirstPodDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E87DD62F1F2C31A40018FA21 /* songboFirstPodDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87DD63F1F2C31A40018FA21 /* Build configuration list for PBXNativeTarget "songboFirstPodDemoUITests" */;
+			buildPhases = (
+				E87DD62C1F2C31A40018FA21 /* Sources */,
+				E87DD62D1F2C31A40018FA21 /* Frameworks */,
+				E87DD62E1F2C31A40018FA21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E87DD6321F2C31A40018FA21 /* PBXTargetDependency */,
+			);
+			name = songboFirstPodDemoUITests;
+			productName = songboFirstPodDemoUITests;
+			productReference = E87DD6301F2C31A40018FA21 /* songboFirstPodDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E87DD6041F2C31A40018FA21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = FZK;
+				TargetAttributes = {
+					E87DD60B1F2C31A40018FA21 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = EAY35SZ8W7;
+						ProvisioningStyle = Automatic;
+					};
+					E87DD6241F2C31A40018FA21 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = EAY35SZ8W7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E87DD60B1F2C31A40018FA21;
+					};
+					E87DD62F1F2C31A40018FA21 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = EAY35SZ8W7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E87DD60B1F2C31A40018FA21;
+					};
+				};
+			};
+			buildConfigurationList = E87DD6071F2C31A40018FA21 /* Build configuration list for PBXProject "songboFirstPodDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E87DD6031F2C31A40018FA21;
+			productRefGroup = E87DD60D1F2C31A40018FA21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E87DD60B1F2C31A40018FA21 /* songboFirstPodDemo */,
+				E87DD6241F2C31A40018FA21 /* songboFirstPodDemoTests */,
+				E87DD62F1F2C31A40018FA21 /* songboFirstPodDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E87DD60A1F2C31A40018FA21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87DD61F1F2C31A40018FA21 /* LaunchScreen.storyboard in Resources */,
+				E87DD61C1F2C31A40018FA21 /* Assets.xcassets in Resources */,
+				E87DD61A1F2C31A40018FA21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87DD6231F2C31A40018FA21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87DD62E1F2C31A40018FA21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BD775F044DFE1C0F9498373 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-songboFirstPodDemo/Pods-songboFirstPodDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F61F81BC4493EF84AC8B4FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-songboFirstPodDemo/Pods-songboFirstPodDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA55B3E9A22CF47E9EC214CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-songboFirstPodDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E87DD6081F2C31A40018FA21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87DD6171F2C31A40018FA21 /* ViewController.m in Sources */,
+				E87DD6141F2C31A40018FA21 /* AppDelegate.m in Sources */,
+				E87DD6111F2C31A40018FA21 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87DD6211F2C31A40018FA21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87DD62A1F2C31A40018FA21 /* songboFirstPodDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87DD62C1F2C31A40018FA21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87DD6351F2C31A40018FA21 /* songboFirstPodDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E87DD6271F2C31A40018FA21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E87DD60B1F2C31A40018FA21 /* songboFirstPodDemo */;
+			targetProxy = E87DD6261F2C31A40018FA21 /* PBXContainerItemProxy */;
+		};
+		E87DD6321F2C31A40018FA21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E87DD60B1F2C31A40018FA21 /* songboFirstPodDemo */;
+			targetProxy = E87DD6311F2C31A40018FA21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E87DD6181F2C31A40018FA21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E87DD6191F2C31A40018FA21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E87DD61D1F2C31A40018FA21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E87DD61E1F2C31A40018FA21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E87DD6371F2C31A40018FA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E87DD6381F2C31A40018FA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E87DD63A1F2C31A40018FA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B91C5D55DD8FEDE0EE8947 /* Pods-songboFirstPodDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EAY35SZ8W7;
+				INFOPLIST_FILE = songboFirstPodDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mysirui.songboFirstPodDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E87DD63B1F2C31A40018FA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82177326C6949813CB21DAA6 /* Pods-songboFirstPodDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EAY35SZ8W7;
+				INFOPLIST_FILE = songboFirstPodDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mysirui.songboFirstPodDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E87DD63D1F2C31A40018FA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EAY35SZ8W7;
+				INFOPLIST_FILE = songboFirstPodDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mysirui.songboFirstPodDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/songboFirstPodDemo.app/songboFirstPodDemo";
+			};
+			name = Debug;
+		};
+		E87DD63E1F2C31A40018FA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EAY35SZ8W7;
+				INFOPLIST_FILE = songboFirstPodDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mysirui.songboFirstPodDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/songboFirstPodDemo.app/songboFirstPodDemo";
+			};
+			name = Release;
+		};
+		E87DD6401F2C31A40018FA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EAY35SZ8W7;
+				INFOPLIST_FILE = songboFirstPodDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mysirui.songboFirstPodDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = songboFirstPodDemo;
+			};
+			name = Debug;
+		};
+		E87DD6411F2C31A40018FA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EAY35SZ8W7;
+				INFOPLIST_FILE = songboFirstPodDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mysirui.songboFirstPodDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = songboFirstPodDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E87DD6071F2C31A40018FA21 /* Build configuration list for PBXProject "songboFirstPodDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87DD6371F2C31A40018FA21 /* Debug */,
+				E87DD6381F2C31A40018FA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87DD6391F2C31A40018FA21 /* Build configuration list for PBXNativeTarget "songboFirstPodDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87DD63A1F2C31A40018FA21 /* Debug */,
+				E87DD63B1F2C31A40018FA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E87DD63C1F2C31A40018FA21 /* Build configuration list for PBXNativeTarget "songboFirstPodDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87DD63D1F2C31A40018FA21 /* Debug */,
+				E87DD63E1F2C31A40018FA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E87DD63F1F2C31A40018FA21 /* Build configuration list for PBXNativeTarget "songboFirstPodDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87DD6401F2C31A40018FA21 /* Debug */,
+				E87DD6411F2C31A40018FA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E87DD6041F2C31A40018FA21 /* Project object */;
+}
